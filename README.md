@@ -28,7 +28,7 @@ https://australian-rental-price-prediction-fqoxvtlf33qtrlpxrnx7il.streamlit.app/
 ## 📊 Dashboard Preview
 
 ### Main Dashboard
-![Dashboard Preview](assests/AU_rental_price_prediction.png)
+![Dashboard Preview](assets/AU_rental_price_prediction.png)
 
 ---
 
@@ -101,3 +101,35 @@ Australian-rental-price-prediction/
 ├── LICENSE
 └── .gitignore
 ```
+
+---
+## ▶️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tracynguyen01/Australian-rental-price-prediction.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run Streamlit dashboard:
+
+```bash
+streamlit run streamlit_dashboard/app.py
+```
+
+---
+## 📌 Future Improvements
+- Add XGBoost and Random Forest models
+- Integrate suburb-level geospatial analysis
+- Connect live rental market APIs
+- Deploy automated model retraining pipeline
+
+---
+## 👩‍💻 Author
+**Ngoc Bao Tran (Tracy) Nguyen**
