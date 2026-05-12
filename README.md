@@ -27,7 +27,6 @@ https://australian-rental-price-prediction-fqoxvtlf33qtrlpxrnx7il.streamlit.app/
 
 ## 📊 Dashboard Preview
 
-### Main Dashboard
 ![Dashboard Preview](assets/AU_rental_price_prediction.png)
 
 ---
