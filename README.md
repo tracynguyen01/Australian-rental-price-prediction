@@ -75,3 +75,29 @@ Model Evaluation
 
 ---
 ## 📂 Repository Structure
+
+```text
+Australian-rental-price-prediction/
+│
+├── assets/
+│   └── AU_rental_price_prediction.png
+│
+├── dataset/
+│   ├── rental_training.csv
+│   ├── rental_validation.csv
+│   └── rental_testing.csv
+│
+├── notebooks/
+│   ├── setup_env_&_baseline_experiment.ipynb
+│   ├── Linear_experiment.ipynb
+│   ├── ElasticNet_experiment.ipynb
+│   └── KNN_experiment.ipynb
+│
+├── streamlit_dashboard/
+│   └── app.py
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
