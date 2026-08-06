@@ -1,6 +1,8 @@
 # 🏠 Australian Rental Price Prediction
 
-Machine learning dashboard for predicting Australian rental prices using property features, furnishing status, and seasonal rental trends.
+An end-to-end data analytics and machine learning project that explores the Australian rental market, identifies rental pricing patterns, and predicts weekly rent based on property characteristics.
+
+The project combines **exploratory data analysis, machine learning, an interactive Power BI dashboard, and a Streamlit prediction application** to transform rental listing data into practical market insights and decision-support tools.
 
 ---
 
