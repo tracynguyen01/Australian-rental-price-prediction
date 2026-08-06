@@ -22,8 +22,10 @@ The project compares multiple regression models and identifies the strongest-per
 
 🔗 Streamlit App:  
 https://australian-rental-price-prediction-fqoxvtlf33qtrlpxrnx7il.streamlit.app/
+
 🔗 Power BI:
 https://app.powerbi.com/view?r=eyJrIjoiOGRmZWM1OTUtMmZjOS00YmFhLTkxMTMtNTNmMzRjNTFiZjliIiwidCI6ImYwMjU1MTVhLTNhNGUtNDJhNC1hYmZkLWI2MjliNWI3NmQ4NSJ9
+
 ---
 
 ## 📊 Dashboard Preview
