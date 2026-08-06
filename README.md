@@ -187,11 +187,17 @@ Combining predictive modelling with interactive visual analytics makes the resul
   
 ---
 ## 🛠️ Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-- Plotly
-- Streamlit
+| Area | Technologies |
+|---|---|
+| Programming | Python |
+| Data Manipulation | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Visualisation | Matplotlib |
+| Model Tuning | GridSearchCV, RandomizedSearchCV |
+| Dashboard | Microsoft Power BI |
+| Web Application | Streamlit |
+| Development | Jupyter Notebook / Google Colab |
+| Version Control | Git, GitHub |
 
 ---
 ## 📂 Repository Structure
