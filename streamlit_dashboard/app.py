@@ -776,52 +776,52 @@ with tab_predictor:
 
                 st.markdown(
                     f"""
-                    <div class="summary-card">
-                        <div class="summary-title">
-                            MONTHLY ESTIMATE
-                        </div>
+            <div class="summary-card">
+                <div class="summary-title">
+                    MONTHLY ESTIMATE
+                </div>
 
-                        <div class="summary-value">
-                            ${monthly_estimate:,.0f}
-                        </div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+                <div class="summary-value">
+                    ${monthly_estimate:,.0f}
+                </div>
+            </div>
+            """,
+                unsafe_allow_html=True
+            )
 
             with result2:
 
                 st.markdown(
                     f"""
-                    <div class="summary-card">
-                        <div class="summary-title">
-                            ANNUAL ESTIMATE
-                        </div>
+            <div class="summary-card">
+                <div class="summary-title">
+                    ANNUAL ESTIMATE
+                </div>
 
-                        <div class="summary-value">
-                            ${annual_estimate:,.0f}
-                        </div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+                <div class="summary-value">
+                    ${annual_estimate:,.0f}
+                </div>
+            </div>
+            """,
+                unsafe_allow_html=True
+            )
 
             with result3:
 
                 st.markdown(
                     f"""
-                    <div class="summary-card">
-                        <div class="summary-title">
-                            FLOOR CATEGORY
-                        </div>
+            <div class="summary-card">
+                <div class="summary-title">
+                    FLOOR CATEGORY
+                </div>
 
-                        <div class="summary-value">
-                            {level_group}
-                        </div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+                <div class="summary-value">
+                    {level_group}
+                </div>
+            </div>
+            """,
+                unsafe_allow_html=True
+            )
 
 
             st.markdown("### 🏠 Property Summary")
