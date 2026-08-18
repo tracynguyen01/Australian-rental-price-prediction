@@ -1143,60 +1143,25 @@ with tab_model:
 
         pipeline_html = """
         <div style="line-height:3.2;">
-
-            <span class="pipeline-box"
-                style="background:#dbeafe;color:#1e40af;">
-                Clean
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#ede9fe;color:#5b21b6;">
-                Engineer
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#ccfbf1;color:#0f766e;">
-                Encode
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#fef3c7;color:#92400e;">
-                Transform
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#fce7f3;color:#9d174d;">
-                Scale
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#dcfce7;color:#166534;">
-                KNN
-            </span>
-
-            <span class="arrow">→</span>
-
-            <span class="pipeline-box"
-                style="background:#fee2e2;color:#991b1b;">
-                Predict
-            </span>
-
+        <span class="pipeline-box" style="background:#dbeafe;color:#1e40af;">Clean</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#ede9fe;color:#5b21b6;">Engineer</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#ccfbf1;color:#0f766e;">Encode</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#fef3c7;color:#92400e;">Transform</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#fce7f3;color:#9d174d;">Scale</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#dcfce7;color:#166534;">KNN</span>
+        <span class="arrow">→</span>
+        <span class="pipeline-box" style="background:#fee2e2;color:#991b1b;">Predict</span>
         </div>
         """
 
         st.markdown(
-            pipeline_html,
-            unsafe_allow_html=True
+           pipeline_html,
+           unsafe_allow_html=True
         )
 
         st.markdown("### Final KNN Configuration")
