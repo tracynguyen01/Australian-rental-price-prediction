@@ -1153,7 +1153,7 @@ with tab_model:
         <span class="arrow">→</span>
         <span class="pipeline-box" style="background:#fce7f3;color:#9d174d;">Scale</span>
         <span class="arrow">→</span>
-        <span class="pipeline-box" style="background:#dcfce7;color:#166534;">KNN</span>
+        <span class="pipeline-box" style="background:#dcfce7;color:#166534;">Model</span>
         <span class="arrow">→</span>
         <span class="pipeline-box" style="background:#fee2e2;color:#991b1b;">Predict</span>
         </div>
