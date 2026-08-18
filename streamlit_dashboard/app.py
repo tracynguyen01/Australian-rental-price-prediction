@@ -750,24 +750,22 @@ with tab_predictor:
             annual_estimate = prediction * 52
 
             st.markdown(
-                f"""
-                <div class="prediction-card">
+               f"""
+            <div class="prediction-card">
+               <div class="prediction-label">
+                  ESTIMATED WEEKLY RENT
+               </div>
 
-                    <div class="prediction-label">
-                        ESTIMATED WEEKLY RENT
-                    </div>
+               <div class="prediction-value">
+                  ${prediction:,.2f}
+               </div>
 
-                    <div class="prediction-value">
-                        ${prediction:,.0f}
-                    </div>
-
-                    <div class="prediction-period">
-                        per week
-                    </div>
-
-                </div>
-                """,
-                unsafe_allow_html=True
+               <div class="prediction-period">
+                  per week
+               </div>
+            </div>
+            """,
+               unsafe_allow_html=True
             )
 
             st.markdown("")
