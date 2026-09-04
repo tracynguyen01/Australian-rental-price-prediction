@@ -700,7 +700,8 @@ with tab_predictor:
                 [
                     "April",
                     "May",
-                    "June"
+                    "June",
+                    "July"
                 ],
                 index=2,
                 help=(
@@ -712,7 +713,8 @@ with tab_predictor:
         month_mapping = {
             "April": 4,
             "May": 5,
-            "June": 6
+            "June": 6,
+            "July": 7
         }
 
         advertised_month = month_mapping[month_name]
